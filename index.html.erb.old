@@ -1,0 +1,84 @@
+<section class="splash">
+  <div class="content">
+    <h1 class="logo">
+      skinny labs
+    </h1>
+
+    <h2>We simply build products.</h2>
+  </div>
+</section>
+
+<section class="work">
+  <div class="content">
+    <h3>Our Work</h3>
+
+    <div class="row">
+      <div class="list">
+        <h4>
+          The Loft Club
+          <span class="year">&#8226; 2015</span>
+        </h4>
+        <p>Explore your city through food.</p>
+      </div>
+      <div class="list">
+        <h4>
+          Trunk
+          <span class="year">&#8226; 2014</span>
+        </h4>
+        <p>Collect digital content from people you know.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="list">
+        <h4>
+          Instabot
+          <span class="year">&#8226; 2013</span>
+        </h4>
+
+        <p>Manage your brand's Instagram hashtags.</p>
+      </div>
+      <div class="list">
+        <h4>
+          Startup Roots
+          <span class="year">&#8226; 2011</span>
+        </h4>
+
+        <p>An intern program that places top students at great startups.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="list">
+        <h4>
+          Yum.sg
+          <span class="year">&#8226; 2007</span>
+        </h4>
+
+         <p>Singapore's top restaurant review site.</p>
+      </div>
+    </div>
+
+    <h3>Spoken at</h3>
+    <div class="row">
+      <div class="list">
+        <h4>
+          Yum.sg
+          <span class="year">&#8226; 2007</span>
+        </h4>
+
+         <p>Singapore's top restaurant review site.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="talks">
+  <div class="content">
+    <h3>
+      skinny labs was started by Derrick and Zaizhuang as a playground for exploring ideas.
+    </h3>
+
+
+  </div>
+</section>

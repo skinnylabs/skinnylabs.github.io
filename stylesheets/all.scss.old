@@ -1,0 +1,111 @@
+/* line 13, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+html, body {
+  height: 100%;
+  font-family: 'Lora', serif; }
+
+/* line 18, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+section {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+/* line 25, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+.content {
+  width: 600px; }
+
+/* line 31, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+.splash {
+  height: 66%; }
+  /* line 33, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+  .splash .content {
+    text-align: center; }
+
+/* line 38, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+.logo {
+  background: transparent url("/images/logo.svg") no-repeat center center;
+  color: transparent;
+  background-size: 372px 75px;
+  height: 75px;
+  width: 372px;
+  margin: 0 auto; }
+
+/* line 47, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+h2 {
+  font-weight: 100; }
+
+/* line 51, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+h3 {
+  font-family: "Cabin", sans-serif;
+  font-size: 2em;
+  letter-spacing: 0.05em; }
+
+/* line 57, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+h4 {
+  font-family: "Istok Web", sans-serif;
+  font-size: 1.3em;
+  margin: 0.2em 0; }
+
+/* line 63, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+p {
+  font-size: 0.9em;
+  margin: 0.2em 0;
+  letter-spacing: 0.5px; }
+
+/* line 69, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+.year {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+  opacity: 0.3; }
+
+/* line 73, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+.work {
+  background: #00B4FF;
+  color: white;
+  padding: 25px 0; }
+
+/* line 79, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+.row {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 1.4em; }
+  /* line 86, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+  .row .list {
+    flex: 0 0 45%; }
+
+/* line 92, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+.talks {
+  background: #EEEEEE; }
+  /* line 95, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+  .talks h3 {
+    text-align: center; }
+  /* line 99, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+  .talks ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    *zoom: 1;
+    text-align: center;
+    font-size: 1.3em; }
+    /* line 104, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss.old */
+    .talks ul li {
+      list-style-image: none;
+      list-style-type: none;
+      margin-left: 0;
+      display: inline-block;
+      vertical-align: middle;
+      *vertical-align: auto;
+      *zoom: 1;
+      *display: inline;
+      white-space: nowrap;
+      padding-left: 10px;
+      padding-right: 10px;
+      line-height: 2; }

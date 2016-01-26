@@ -1,0 +1,61 @@
+/* line 4, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss */
+html, body {
+  height: 100%;
+  font-family: 'Cardo', serif; }
+
+/* line 9, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss */
+section {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+/* line 16, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss */
+.content {
+  width: 600px; }
+
+/* line 20, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss */
+.splash {
+  height: 100%; }
+  /* line 22, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss */
+  .splash .content {
+    text-align: center; }
+
+/* line 27, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss */
+.logo {
+  background: transparent url("/images/logo.svg") no-repeat center center;
+  color: transparent;
+  background-size: 93px 141px;
+  height: 141px;
+  width: 93px;
+  margin: 0 auto 20px auto; }
+
+/* line 36, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss */
+h2 {
+  font-size: 1.8em;
+  font-weight: 100; }
+
+/* line 41, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss */
+.heading {
+  color: #0193A6; }
+  /* line 43, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss */
+  .heading a {
+    text-decoration: none;
+    color: inherit; }
+    /* line 46, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss */
+    .heading a:hover {
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+      opacity: 0.5;
+      -moz-transition: opacity 0.3s ease-in-out;
+      -o-transition: opacity 0.3s ease-in-out;
+      -webkit-transition: opacity 0.3s ease-in-out;
+      transition: opacity 0.3s ease-in-out; }
+
+/* line 53, /Users/derrick/workspace/skinnylabs-source/source/stylesheets/all.scss */
+.copyright {
+  margin: 50px 0 0 0;
+  color: #C6C6C6; }
